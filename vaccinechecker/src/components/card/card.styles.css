@@ -1,0 +1,35 @@
+.Card{
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(177deg, rgba(2,0,36,1) 2%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%); 
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    color: white;
+    text-align: left;
+}
+p{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.CenterName{
+    font-size: large;
+    font-weight: 1000;
+}
+div{
+    font-size: small;
+    font-weight: 200;
+    text-align: right;
+}
+
+.Card:hover {
+    transform: scale(1.05);
+  }
